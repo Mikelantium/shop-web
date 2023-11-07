@@ -1,0 +1,175 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    margin-top:15px;
+}
+.window {
+    position:fixed;
+    left: 0;
+    top: 0;
+    margin: 30px 10px
+}
+.ropa, .promociones {
+    font-weight: bold;
+}
+.promociones {
+    color:red
+}
+
+.mh {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+    color:grey;
+}
+.line {
+ border-left: 1px black solid;
+}
+
+.tienda {
+    text-align: center;
+}
+.tienda p {
+    font-size: 12px;
+    padding-top: 12px;
+    font-weight: bold;
+    display:inline
+}
+
+.greytienda {
+    color:grey
+}
+.buscador {
+    width: 250px;
+    margin-right:0px;
+}
+.vista {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    color:grey;
+    margin-right: 40px;
+    font-size: 10px;    
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+
+.fotos {
+       text-align: center;
+       margin-top: 15px;
+   }
+
+   .fotos > img {
+    height: 420px;
+    margin: 15px;
+   }
+
+.dto {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    padding: 50px 0 25px 0;
+    margin-top: 20px;
+    box-shadow: 1px -1px lightgrey, -1px 1px lightgrey;
+}
+.dto p {
+    
+    padding-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px black solid; 
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: smaller;
+    padding: 15px;
+    font-weight: bold;
+    box-shadow: -1px 1px lightgrey;
+    margin-bottom: 5px;
+
+}
+.contact {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+    justify-content: center;
+    color:rgb(83, 82, 82);
+    align-items: center;
+}
+.tlf {
+    color:rgb(66, 150, 122)
+}
+.tlficon {
+    width: 30px;
+}
+
+.line2 {
+ border: 1px black solid;
+ height: 19px;
+}
+
+.footer1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px 50px 0px;
+    flex-wrap: wrap;
+    font-size: smaller;
+}
+
+footer p {
+    margin: 15px 0px 15px 0px;
+    color:rgb(83, 82, 82);
+    font-weight: bold;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-top:5px
+}
+.social img { 
+ margin-top: -5px;
+}
+.footer2 {
+    background-color: white;
+    font-size: smaller;
+    padding: 10px 
+}
+.final{
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 1px -1px lightgrey;
+    padding-top:20px;
+}
+.telef2 {
+    height: 20px;
+    margin-right: 5px;
+}
+.ios {
+    display: flex;
+    align-items:center;
+
+}
+.android {
+    display: flex;
+    align-items: center;
+}
